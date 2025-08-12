@@ -1,4 +1,4 @@
-object "EIP3855Canary" {
+object "EIP1153Canary" {
     code {
         datacopy(0, dataoffset("runtime"), datasize("runtime"))
         return(0, datasize("runtime"))
